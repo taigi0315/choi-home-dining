@@ -1,0 +1,133 @@
+.menuContainer {
+    @apply min-h-screen py-8 text-white bg-black;
+  }
+  
+  .menuHeader {
+    @apply text-center mb-16 relative px-4;
+  }
+  
+  .mainTitle {
+    @apply text-5xl font-bold mb-4 text-white tracking-wider;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .subTitle {
+    @apply text-xl text-yellow-500 font-light mb-12;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .menuContent {
+    @apply max-w-6xl mx-auto px-4;
+  }
+  
+  .categorySection {
+    @apply mb-16;
+  }
+  
+  .categoryHeader {
+    @apply mb-8;
+  }
+  
+  .categoryTitle {
+    @apply inline-block px-6 py-2 bg-yellow-500 text-black text-2xl font-bold rounded-lg; /* Added rounded corners */
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .subCategoryTitle {
+    @apply text-2xl text-yellow-500 mb-6 ml-4 font-bold;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .menuCard {
+    @apply bg-slate-900/50 rounded-lg overflow-hidden mb-6 backdrop-blur-sm; /* Made background transparent and added blur */
+  }
+  
+  .menuItemContent {
+    @apply md:flex;
+  }
+  
+  .imageContainer {
+    @apply relative aspect-square md:w-48 overflow-hidden bg-white rounded-lg m-4; /* Added margin and rounded corners */
+  }
+  
+  .menuImage {
+    @apply w-full h-full object-cover;
+  }
+  
+  .itemDetails {
+    @apply p-6 flex-1;
+  }
+  
+  .itemTitle {
+    @apply text-xl mb-2;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .itemTitle span:first-child {
+    @apply font-medium;
+  }
+  
+  .romanized {
+    @apply text-gray-400 ml-2 text-lg font-normal;
+  }
+  
+  .itemDescription {
+    @apply text-gray-300 leading-relaxed;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .tagContainer {
+    @apply flex flex-wrap gap-2 mt-4;
+  }
+
+  
+  .proteinTag {
+    @apply bg-amber-900/30;
+  }
+  
+  .spicyTag {
+    @apply bg-red-900/30;
+  }
+  
+  .categoryTag {
+    @apply bg-blue-900/30;
+  }
+  
+
+  menuContainer {
+    @apply min-h-screen py-8 text-white bg-white;
+  }
+  
+  /* ... other styles remain the same ... */
+  
+  .menuCard {
+    @apply bg-transparent rounded-lg overflow-hidden mb-6 border border-yellow-500; /* Added yellow border, transparent background */
+  }
+  
+  /* ... other styles remain the same ... */
+  
+  /* Updated tag styles with white background */
+  .tag {
+    @apply w-8 h-8 flex items-center justify-center rounded-full bg-white; /* Added white background */
+  }
+  
+  .proteinTag {
+    @apply hover:bg-amber-50 transition-colors;
+  }
+  
+  .spicyTag {
+    @apply hover:bg-red-50 transition-colors;
+  }
+  
+  .categoryTag {
+    @apply hover:bg-blue-50 transition-colors;
+  }
+  
+  .tagIcon {
+    @apply w-14 h-14 object-contain rounded-full;
+}
+  /* Updated tag styles to show only icons */
+    .tag {
+      @apply w-14 h-14 flex items-center justify-center rounded-full bg-white; /* Added white background and rounded-full for circular shape */
+      background-color: rgb(255, 255, 255); /* Optional: Low opacity background */
+  }
