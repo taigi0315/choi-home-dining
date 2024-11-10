@@ -51,9 +51,9 @@ export const menuCategories = {
           koreanName: "꽃게 짬뽕 라면",
           romanizedName: "kkotge jjamppong ramyeon",
           description: "Spicy seafood ramen with blue crab, rich broth, and vegetables",
-          protein: "seafood",
+          protein: "fish",
           spicyLevel: 3,
-          categories: ["noodle", "spicy"],
+          categories: ["noodle"],
           imageUrl: "/images/menu/kkotge-jjamppong-ramyeon.png"
         },        
         {
@@ -251,9 +251,9 @@ export const menuCategories = {
           koreanName: "매운뚝갈비",
           romanizedName: "maeun ttukgalbi",
           description: "Spicy grilled pork ribs with a rich and smoky marinade",
-          protein: "pork",
+          protein: "beef",
           spicyLevel: 4,
-          categories: ["grill", "spicy"],
+          categories: [],
           imageUrl: "/images/menu/maeunttukgalbi.png"
         },
         {
@@ -283,7 +283,7 @@ export const menuCategories = {
           description: "Korean braised pig's feet in soy sauce and spices",
           protein: "pork",
           spicyLevel: 0,
-          categories: ["pork"],
+          categories: [],
           imageUrl: "/images/menu/jokbal.png"
         }
       ],
@@ -347,7 +347,7 @@ export const menuCategories = {
           description: "Grilled Chilean seabass with a light and buttery texture",
           protein: "fish",
           spicyLevel: 1,
-          categories: ["grill", "seafood"],
+          categories: [],
           imageUrl: "/images/menu/chilean-seabass-gui.png"
         },        
         {
