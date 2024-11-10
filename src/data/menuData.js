@@ -30,7 +30,7 @@ export const menuCategories = {
           protein: "pork",
           spicyLevel: 2,
           categories: ["stew"],
-          imageUrl: "/images/menu/kimchijjigae.jpg"
+          imageUrl: "/images/menu/kimchijjigae.png"
         },
         {
           id: "budaejjigae",
@@ -41,7 +41,21 @@ export const menuCategories = {
           spicyLevel: 2,
           categories: ["stew"],
           imageUrl: "/images/menu/budaejjigae.png"
-        },
+        }
+      ]
+    },
+    "NOODLE DISHES": {
+      Korean: [
+        {
+          id: "kkotge-jjamppong-ramyeon",
+          koreanName: "꽃게 짬뽕 라면",
+          romanizedName: "kkotge jjamppong ramyeon",
+          description: "Spicy seafood ramen with blue crab, rich broth, and vegetables",
+          protein: "seafood",
+          spicyLevel: 3,
+          categories: ["noodle", "spicy"],
+          imageUrl: "/images/menu/kkotge-jjamppong-ramyeon.png"
+        },        
         {
           id: "dakkalguksu",
           koreanName: "닭칼국수",
@@ -51,11 +65,7 @@ export const menuCategories = {
           spicyLevel: 0,
           categories: ["noodle"],
           imageUrl: "/images/menu/dakkalguksu.png"
-        }
-      ]
-    },
-    "NOODLE DISHES": {
-      Korean: [
+        },
         {
           id: "kalguksu",
           koreanName: "칼국수",
@@ -122,6 +132,26 @@ export const menuCategories = {
     },
     "RICE DISHES": {
       Korean: [
+        {
+          id: "koreanomurice",
+          koreanName: "오므라이스",
+          romanizedName: "Korean omurice",
+          description: "Omelette filled with fried rice and topped with ketchup or sauce",
+          protein: "chicken",
+          spicyLevel: 0,
+          categories: ["rice"],
+          imageUrl: "/images/menu/koreanomurice.jpg"
+        },
+        {
+          id: "kimchi-bokkeumbap",
+          koreanName: "김치볶음밥",
+          romanizedName: "kimchi bokkeumbap",
+          description: "Stir-fried rice with kimchi, vegetables, and a spicy kick",
+          protein: "vegetarian",
+          spicyLevel: 2,
+          categories: ["rice", "spicy"],
+          imageUrl: "/images/menu/kimchi-bokkeumbap.png"
+        },        
         {
           id: "bibimbap",
           koreanName: "비빔밥",
@@ -217,6 +247,16 @@ export const menuCategories = {
     "MAIN DISHES": {
       "Korean": [
         {
+          id: "maeunttukgalbi",
+          koreanName: "매운뚝갈비",
+          romanizedName: "maeun ttukgalbi",
+          description: "Spicy grilled pork ribs with a rich and smoky marinade",
+          protein: "pork",
+          spicyLevel: 4,
+          categories: ["grill", "spicy"],
+          imageUrl: "/images/menu/maeunttukgalbi.png"
+        },
+        {
           id: "jjimdak",
           koreanName: "찜닭",
           romanizedName: "jjimdak",
@@ -245,16 +285,6 @@ export const menuCategories = {
           spicyLevel: 0,
           categories: ["pork"],
           imageUrl: "/images/menu/jokbal.png"
-        },
-        {
-          id: "koreanomurice",
-          koreanName: "오므라이스",
-          romanizedName: "Korean omurice",
-          description: "Omelette filled with fried rice and topped with ketchup or sauce",
-          protein: "chicken",
-          spicyLevel: 0,
-          categories: ["rice"],
-          imageUrl: "/images/menu/koreanomurice.jpg"
         }
       ],
       "Mexican": [
@@ -286,7 +316,7 @@ export const menuCategories = {
           protein: "beef",
           spicyLevel: 1,
           categories: ["stew"],
-          imageUrl: "/images/menu/picadillo.jpg"
+          imageUrl: "/images/menu/picadillo.png"
         },
         {
           id: "discada",
@@ -310,6 +340,16 @@ export const menuCategories = {
         }
       ],
       "Grilled/American": [
+        {
+          id: "chilean-seabass-gui",
+          koreanName: "칠리안 시베스 구이",
+          romanizedName: "chilian sibeseu gui",
+          description: "Grilled Chilean seabass with a light and buttery texture",
+          protein: "fish",
+          spicyLevel: 1,
+          categories: ["grill", "seafood"],
+          imageUrl: "/images/menu/chilean-seabass-gui.png"
+        },        
         {
           id: "porkchopveggies",
           koreanName: "돼지 등심 구이 & 야채",
@@ -419,18 +459,6 @@ export const menuCategories = {
           imageUrl: "/images/menu/musubi.png"
         }
       ],
-      "Mexican": [
-        {
-          id: "applewithchamoy",
-          koreanName: "사과 & 차모이 & 젤리",
-          romanizedName: "Apple with chamoy and gummies",
-          description: "Fresh apple slices with spicy-sweet chamoy sauce and gummy candies",
-          protein: null,
-          spicyLevel: 1,
-          categories: ["fruit"],
-          imageUrl: "/images/menu/applewithchamoy.png"
-        }
-      ],
       "Modern/Fusion": [
         {
           id: "tortillapizza",
@@ -478,7 +506,7 @@ export const menuCategories = {
           protein: null,
           spicyLevel: 0,
           categories: ["drink", "fruit"],
-          imageUrl: "/images/menu/hwachae.jpg"
+          imageUrl: "/images/menu/hwachae.png"
         }
       ],
       "Mexican": [
@@ -491,6 +519,16 @@ export const menuCategories = {
           spicyLevel: 1,
           categories: ["drink", "fruit"],
           imageUrl: "/images/menu/mangonada.png"
+        },
+        {
+          id: "applewithchamoy",
+          koreanName: "사과 & 차모이 & 젤리",
+          romanizedName: "Apple with chamoy and gummies",
+          description: "Fresh apple slices with spicy-sweet chamoy sauce and gummy candies",
+          protein: null,
+          spicyLevel: 1,
+          categories: ["fruit"],
+          imageUrl: "/images/menu/applewithchamoy.png"
         }
       ],
       "American": [

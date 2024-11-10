@@ -12,7 +12,30 @@ code {
     monospace;
 }
 
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media print {
+  body {
+      width: 100vw;
+      margin: 0;
+  }
+
+  #menu, .menu-item { /* Ensure #menu or .menu-item are the main containers */
+      width: 100%;
+      page-break-inside: avoid; /* Prevents splitting elements across pages */
+  }
+
+  .menu-item {
+      break-inside: avoid; /* This prevents images or text in menu items from being split */
+      padding: 10px;
+  }
+
+  img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      page-break-inside: avoid; /* Ensures images don’t get cut across pages */
+  }
+}
