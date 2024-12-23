@@ -18,7 +18,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "docker:build": "docker build -t choi-food-menu .",
+    "docker:run": "docker run -p 3000:3000 choi-food-menu",
+    "docker:push": "docker push captainchoi0607/choi-home-dining:latest"
   },
   "eslintConfig": {
     "extends": [
